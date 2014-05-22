@@ -31,9 +31,9 @@ format it yourself, and make sure that the label is boot2docker-data.
 
 When using kvm-start, KVM mounts the /mnt directory from the docker host to
 the KVM host. Meaning, when starting the main docker container mounting /mnt
-as a volume to the host (eg -v /host_dir:/mnt) will be mounted into the VM.
+as a volume to the host (eg `-v /host_dir:/mnt`) will be mounted into the VM.
 This means that containers running in the VM can then use /mnt as a volume
-(eg docker -H tcp://{{docker2docker}}:4243 -v /mnt:/container_dir) will
+(eg `docker -H tcp://{{docker2docker}}:4243 -v /mnt:/container_dir`) will
 result in a directory that's shared between the host and the container.
 
 [boot2docker]: https://github.com/boot2docker/boot2docker/
