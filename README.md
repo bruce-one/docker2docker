@@ -15,7 +15,7 @@ Clone 'dat repo. Build it. Run in `--privileged` mode on a Linux machine
 with KVM support. Check the IP address of the container; then you can
 connect using:
 
-- SSH on port 22 (user=docker, password=tcuser)
+- SSH on port 22 (user=docker, password=tcuser or user=ubuntu, password=docker for the Ubuntu image)
 - Docker on port 4243
 - VNC on port 5900
 
